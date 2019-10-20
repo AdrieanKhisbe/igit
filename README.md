@@ -1,13 +1,13 @@
 # igit
 
-`igit` - interactive git command using fzf
+`igit` - interactive git command using fzf (or `peco` or `percol`)
 
 ![igit](https://user-images.githubusercontent.com/26239560/45913024-20246d80-be66-11e8-904c-63bad327e1ce.gif)
 
 ## Requirements
 
 - zsh
-- [fzf](https://github.com/junegunn/fzf)
+- [fzf](https://github.com/junegunn/fzf) or [peco](https://github.com/peco/peco) or [percol](https://github.com/mooz/percol)
 
 ## Install
 
@@ -15,6 +15,14 @@
 
 ```zsh
 zplug "ytakahashi/igit"
+```
+
+### With [antibody]() or [antigen]()
+
+```zsh
+antibody bundle "ytakahashi/igit"
+# or
+antigen bundle "ytakahashi/igit"
 ```
 
 ### Manually
